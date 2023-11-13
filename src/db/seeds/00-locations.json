@@ -1,0 +1,38 @@
+[
+    {
+        "location_city": "Portland",
+        "location_state": "Maine",
+        "high_tide": "11:00:00",
+        "low_tide": "16:30:00"
+    },
+    {
+        "location_city": "Portsmouth",
+        "location_state": "New Hampshire",
+        "high_tide": "08:40:00",
+        "low_tide": "12:10:00"
+    },
+    {
+        "location_city": "Saco",
+        "location_state": "Maine",
+        "high_tide": "11:15:00",
+        "low_tide": "16:45:00"
+    },
+    {
+        "location_city": "Costa Mesa",
+        "location_state": "California",
+        "high_tide": "06:36:00",
+        "low_tide": "14:28:00"
+    },
+    {
+        "location_city": "Rye",
+        "location_state": "New Hampshire",
+        "high_tide": "09:00:00",
+        "low_tide": "13:17:00"
+    },
+    {
+        "location_city": "Nantucket",
+        "location_state": "Massachusetts",
+        "high_tide": "16:58:00",
+        "low_tide": "22:39:00"
+    }
+]
