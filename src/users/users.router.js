@@ -1,0 +1,9 @@
+const router = require("express").Router();
+const methodNotAllowed = require("../errors/methodNotAllowed");
+const usersController = require("./users.controller");
+
+router.route("/:user_id")
+    .get(usersController.readUser)
+    .all(methodNotAllowed);
+
+module.exports = router;
