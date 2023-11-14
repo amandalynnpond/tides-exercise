@@ -20,9 +20,19 @@ async function read(req, res, next){
     res.json({ data: res.locals.user });
 };
 
+async function list(req, res, next){
+    const { user_id } = req.params
+    const data = await usersService.list(user_id);
+    res.json({ data });
+}
+
 module.exports = {
     readUser: [
         userExists,
         read
+    ],
+    listLocations: [
+        userExists,
+        asyncErrorBoundary(list)
     ]
 };

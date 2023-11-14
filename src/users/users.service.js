@@ -7,6 +7,14 @@ function read(user_id){
         .first()
 };
 
+function list(user_id){
+    return knex("usersLocations")
+        .select("*")
+        .where({ user_id })
+        .orderBy("location_id")
+};
+
 module.exports = {
     read,
+    list
 }
