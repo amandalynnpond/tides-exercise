@@ -8,9 +8,10 @@ function read(user_id){
 };
 
 function list(user_id){
-    return knex("usersLocations")
-        .select("*")
-        .where({ user_id })
+    return knex("usersLocations as ul")
+        .join("locations as l", "ul.location_id", "l.location_id")
+        .select("l.*")
+        .where({"ul.user_id": user_id})
         .orderBy("location_id")
 };
 
