@@ -4,9 +4,9 @@ This is a practice server-side API that provides low and high tide times by loca
 
 ### To Install:
 
-1. Fork and clone this repository.
+1. Clone this repository.
 2. Run `cp .env.sample .env` in the directory
-3. Update your `.env` file with either your own PostgreSQL link or the one provided by me.
+3. Update your `.env` file with the provided PostgreSQL link (recommended) or your own.
 5. Run `npm install` to install project dependencies.
 6. If you inserted the PostgreSQL I provided in the .env file, please skip to step 9. If you provided your own link, please follow steps 7 and 8
 7. Run `npx knex migrate:latest`
