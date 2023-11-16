@@ -24,3 +24,11 @@ Using either Postman or your preferred method you can do the following:
    ![image](https://github.com/amandalynnpond/tides-exercise/assets/115049956/72e191f5-eea1-4388-a6ca-cd7812a795d7)
 
 At this time, there are two users (with ids 1 and 2). I reccomend if you are to save any locations, to do so with user_id 2, as there are no pre-saved locations for that user. Enjoy and please let me know if you have any questions. :)
+
+Available cities within the database can be found in src/db/seeds/00-locations.json, but the cities and states are also listed below for easy reference:
+1. Portland, Maine
+2. Portsmouth, New Hampshire (use new_hampshire to accomidate space)
+3. Saco, Maine
+4. Costa Mesa, California (use costa_mesa to accomidate space)
+5. Rye, New Hampshire (use new_hampshire to accomidate space)
+6. Nantucket, Massachusetts
